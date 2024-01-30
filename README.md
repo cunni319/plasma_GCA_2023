@@ -64,7 +64,19 @@ regression models between Inactive GCA patients and Healthy controls. Marginal r
 This script reads in the results from the multiple linear regression models between Active GCA and Healthy controls 
 as well as for Inactive GCA and Healthy controls. It presents the number of significant proteins (*P* < 0.01) for both group comparisons. Additionally, it provides how many proteins are higher or lower in both group comparisons 
 (*i.e.*, Active GCA vs. Healthy controls and Inactive GCA vs. Healthy controls) as well as how many overlapp
-between the two groups.
+between the two groups. These results are denoted in Figure 2A and B.
+
+>active_GCA_vs_healthy_controls_heatmap.ipynb
+
+This script reads in the multiple linear regression model results between Active GCA and Healthy controls. It
+gathers the proteins from Active GCA and Healthy control and makes a heatmap after doing z-score transformation
+on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
+
+>inactive_GCA_vs_healthy_controls_heatmap.ipynb
+
+This script reads in the multiple linear regression model results between Inactive GCA and Healthy controls. It
+gathers the proteins from Inactive GCA and Healthy control and makes a heatmap after doing z-score transformation
+on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
 
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients.
