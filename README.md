@@ -84,10 +84,16 @@ This script reads in the random effect linear regression model results between A
 gathers the proteins from Active GCA and Inactive GCA and makes a heatmap after doing a z-score transformation
 on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
 
+
 >top_20_GO_terms_from_DAVID.ipynb
 
-This script reads in the results from using the online bioinformatics tool DAVID to identify significantly
-enriched 
+This script reads the results from using the online bioinformatics tool DAVID to identify significantly
+enriched Biological Processes for differentially abundant proteins. There are four groups of proteins that were
+submitted to DAVID:
+1. Differentially abundant proteins higher in Active GCA compared to Healthy controls
+2. Differentially abundant proteins lower in Active GCA compared to Healthy controls
+3. Differentially abundant proteins higher in Inactive GCA compared to Healthy controls
+4. Differentially abundant protein lower in Inactive GCA compared to Healthy controls
 
 
 
