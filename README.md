@@ -31,8 +31,8 @@ three study groups are saved for linear modeling. Linear regression models were 
 clinical and demographic variables for all three study groups. This includes: Study group, age,
 prednisone use, BMI, aspirin use, sex, PGA, Smoking status, and CRP. Each clinical and demographic
 variable had an individual linear regression model constructed. The *P*-value and the R<sup>2</sup> for the 
-variable of interest are saved to make a lollipop plot with the lenth of the line representing the significance 
-and the size of the point representing the R<sup>2</sup> value.
+variable of interest are saved to make a lollipop plot with the lenth of the line representing the linear
+regression model *P*-value and the size of the point representing the R<sup>2</sup> value.
 
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease
