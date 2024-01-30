@@ -11,7 +11,7 @@ The scripts included are the following:
 
 ## Data Preprocessing
 
-> ../quantile_normalization/quantile_normalization.ipynb
+>../src/quantile_normalization/quantile_normalization.ipynb
 
 This script takes the raw RFU data from SomaLogic, and quantile normalizes the samples.
 A box plot of all samples is provided at the end of the script to illustrate that all samples
@@ -20,7 +20,7 @@ data is saved in the data directory for all downstream analysis.
 
 
 ## Exploratory analysis
-> ../Figure_1B_C_D/PCA.ipynb
+>../src/Figure_1B_C_D/PCA.ipynb
 
 This script takes the quantile normalized data and makes a PCA plot in R. Additionally, this
 script makes box plots of the distribution of PC1 and PC2 values for all three study groups
@@ -29,7 +29,7 @@ the PC1 and PC2 distributions between all three study groups, the *P*-values are
 denoted between each group.
 
 
-> ../Figure_1B_C_D/linear_modeling_between_PC1_and_demographic_variables.ipynb
+>../src/Figure_1B_C_D/linear_modeling_between_PC1_and_demographic_variables.ipynb
 
 This script uses the quantile normalized data to do PCA analysis. The PC1 values for all
 three study groups are saved for linear modeling. Linear regression models were constructed between
@@ -40,7 +40,7 @@ variable of interest are saved to make a lollipop plot with the length of the li
 regression model *P*-value and the size of the point representing the R<sup>2</sup> value.
 
 ## Differential abundance analysis
->../linear_modeling_active_and_controls/linear_modeling_active_and_controls.ipynb
+>../src/linear_modeling_active_and_controls/linear_modeling_active_and_controls.ipynb
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Active GCA patients and Healthy controls. Marginal linear regression models were
@@ -52,7 +52,7 @@ differentially abundant proteins between Active GCA and Healthy controls. A thre
 all plasma proteins for significance.
 
 
->linear_modeling_inactive_and_controls.ipynb
+>../src/linear_modeling_inactive_and_controls/linear_modeling_inactive_and_controls.ipynb
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Inactive GCA patients and Healthy controls. Marginal linear regression models were
@@ -63,7 +63,7 @@ models. In the full multiple linear regression models, the *P*-value from the st
 identify differentially abundant proteins between Inactive GCA and Healthy controls. A threshold of *P* < 0.01 was
 applied to all plasma proteins for significance.
 
->linear_modeling_active_and_inactive_GCA.ipynb
+>../src/linear_modeling_active_and_inactive/linear_modeling_active_and_inactive_GCA.ipynb
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Inactive GCA patients and Healthy controls. Marginal random effect linear regression 
