@@ -41,7 +41,7 @@ regression model *P*-value and the size of the point representing the R<sup>2</s
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Active GCA patients and Healthy controls. Marginal linear regression models were
-run on six clinical and demographic variables between Active GCA and Healthy controls. Variables with linear
+run on six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use) between Active GCA and Healthy controls. Variables with linear
 regression model *P*-values < 0.05 were identified as significant confounders and included in the full multiple linear regression models. In the full multiple linear regression models, the *P*-value from the study group variable was used to identify differentially abundant proteins between Active GCA and Healthy controls. A threshold of *P* < 0.01 was applied to all plasma proteins for significance.
 
 
@@ -49,16 +49,13 @@ regression model *P*-values < 0.05 were identified as significant confounders an
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Inactive GCA patients and Healthy controls. Marginal linear regression models were
-run on six clinical and demographic variables between Inactive GCA and Healthy controls. Variables with linear
-regression model *P*-values < 0.05 were identified as significant confounders and included in the full multiple linear 
-regression models. In the full multiple linear regression models, the *P*-value from the study group variable was used 
-to identify differentially abundant proteins between Inactive GCA and Healthy controls. A threshold of *P* < 0.01 
-was applied to all plasma proteins for significance.
+run on six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use) between Inactive GCA and Healthy controls. Variables with linear
+regression model *P*-values < 0.05 were identified as significant confounders and included in the full multiple linear regression models. In the full multiple linear regression models, the *P*-value from the study group variable was used to identify differentially abundant proteins between Inactive GCA and Healthy controls. A threshold of *P* < 0.01 was applied to all plasma proteins for significance.
 
 >linear_modeling_active_and_inactive_GCA.ipynb
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
-regression models between Inactive GCA patients and Healthy controls. Marginal random effect linear regression models were run on six clinical and demographic variables between Active GCA and Inactive GCA. Variables with random effect linear regression model *P*-values < 0.05 were identified as significant confounders and included in the full random effect linear regression models. In the full random effect linear regression models, the *P*-value from the study group variable was used to identify differentially abundant proteins between Active GCA and Inactive GCA. A threshold of *P* < 0.01 was applied to all plasma proteins for significance.
+regression models between Inactive GCA patients and Healthy controls. Marginal random effect linear regression models were run on six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use)between Active GCA and Inactive GCA. Variables with random effect linear regression model *P*-values < 0.05 were identified as significant confounders and included in the full random effect linear regression models. In the full random effect linear regression models, the *P*-value from the study group variable was used to identify differentially abundant proteins between Active GCA and Inactive GCA. A threshold of *P* < 0.01 was applied to all plasma proteins for significance.
 
 >linear_modeling_summary.ipynb
 
@@ -103,7 +100,7 @@ Biological Processes for each group of differentially abundant proteins. The scr
 >volcano_plot_with_PGA.ipynb
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This
-script uses the Active GCA plasma proteins and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. 
+script uses the Active GCA plasma proteins and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. Marginal linear regression models were constructed between all proteins and six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use).
 
 # Installation
 
