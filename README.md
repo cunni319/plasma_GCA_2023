@@ -28,8 +28,8 @@ script makes box plots of the distribution of PC1 and PC2 values for all three s
 the PC1 and PC2 distributions between all three study groups, the *P*-values are provided and
 denoted between each group.
 
-## Differential abundance analysis
-> ../linear_modeling_active_and_controls/linear_modeling_between_PC1_and_demographic_variables.ipynb
+
+> ../Figure_1B_C_D/linear_modeling_between_PC1_and_demographic_variables.ipynb
 
 This script uses the quantile normalized data to do PCA analysis. The PC1 values for all
 three study groups are saved for linear modeling. Linear regression models were constructed between
@@ -39,8 +39,8 @@ variable had an individual linear regression model constructed. The *P*-value an
 variable of interest are saved to make a lollipop plot with the length of the line representing the linear
 regression model *P*-value and the size of the point representing the R<sup>2</sup> value.
 
-
->linear_modeling_active_and_controls.ipynb
+## Differential abundance analysis
+>../linear_modeling_active_and_controls/linear_modeling_active_and_controls.ipynb
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Active GCA patients and Healthy controls. Marginal linear regression models were
