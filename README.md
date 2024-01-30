@@ -90,10 +90,10 @@ on the data. Age, sex, smoking status, and BMI are denoted at the top of each he
 This script reads the results from using the online bioinformatics tool DAVID to identify significantly
 enriched Biological Processes for differentially abundant proteins. There are four groups of proteins that were
 submitted to DAVID:
-1. Differentially abundant proteins higher in Active GCA compared to Healthy controls
-2. Differentially abundant proteins lower in Active GCA compared to Healthy controls
-3. Differentially abundant proteins higher in Inactive GCA compared to Healthy controls
-4. Differentially abundant protein lower in Inactive GCA compared to Healthy controls
+  1. Differentially abundant proteins higher in Active GCA compared to Healthy controls
+  2. Differentially abundant proteins lower in Active GCA compared to Healthy controls
+  3. Differentially abundant proteins higher in Inactive GCA compared to Healthy controls
+  4. Differentially abundant protein lower in Inactive GCA compared to Healthy controls
 
 
 
