@@ -11,7 +11,7 @@ The scripts included are the following:
 
 ## Data Preprocessing
 
->quantile_normalization/quantile_normalization.ipynb
+> ./quantile_normalization/quantile_normalization.ipynb
 
 This script takes the raw RFU data from SomaLogic, and quantile normalizes the samples.
 A box plot of all samples is provided at the end of the script to illustrate that all samples
