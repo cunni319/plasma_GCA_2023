@@ -100,7 +100,8 @@ Biological Processes for each group of differentially abundant proteins. The scr
 >volcano_plot_with_PGA.ipynb
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This
-script uses the Active GCA plasma proteins and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. Marginal linear regression models were constructed between all proteins and six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use).
+script uses the Active GCA plasma proteins and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. Marginal linear regression models were constructed between all proteins and six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use). Variables with a *P*-value < 0.05 were included in the full multiple linear regression model between protein abundance and PGA. After constructing the linear regression models, Spearman rho values, along with their corresponding *P*-values, were calculated between proteins and PGA. All proteins with a *P*-value 
+< 0.05 and an |Spearman rho| > 0.4 were identified as significant associations. A volcano plot is made at the very end with the proteins of interest highlighted in colors (blue and red).
 
 # Installation
 
