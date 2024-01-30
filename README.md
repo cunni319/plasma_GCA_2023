@@ -10,14 +10,13 @@ put into the corresponding output directory.
 The scripts included are the following:
 
 >quantile_normalization.ipynb
-
 This script takes the raw RFU data from SomaLogic, and quantile normalizes the samples.
 A box plot of all samples is provided at the end of the script to illustrate that all samples
 have the same distribution and median after quantile normalization. The quantile normalized 
 data is saved in the data directory for all downstream analysis.
 
->PCA.ipynb
 
+>PCA.ipynb
 This script takes the quantile normalized data and makes a PCA plot in R. Additionally, this
 script makes box plots of the distribution of PC1 and PC2 values for all three study groups
 (Active GCA, Inactive GCA, and Healthy controls). A Mann–Whitney *U* test was used to compare 
@@ -25,7 +24,6 @@ the PC1 and PC2 distributions between all three study groups, the *P*-values are
 denoted between each group.
 
 >linear_modeling_between_PC1_and_demographic_variables.ipynb
-
 This script uses the quantile normalized data to do PCA analysis. The PC1 values for all
 three study groups are saved for linear modeling. Linear regression models were constructed between
 clinical and demographic variables for all three study groups. This includes: Study group, age,
@@ -35,7 +33,6 @@ variable of interest are saved to make a lollipop plot with the length of the li
 regression model *P*-value and the size of the point representing the R<sup>2</sup> value.
 
 >linear_modeling_active_and_controls.ipynb
-
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Active GCA patients and Healthy controls. Marginal linear regression models were
 run on six clinical and demographic variables between Active GCA and Healthy controls. Variables with linear
@@ -97,7 +94,10 @@ submitted to DAVID:
      
 A *P*-value < 0.01 from a modified Fisher's exact test provided by DAVID was used as a threshold for significance.
 This script orders all Biological Processes based on their *P*-values and plots the top 20 most significant GO
-Biological Processes for each group of differentially abundant protiens. The script makes four bar graphs with the length of the bars as the *P*-value significance and shade representing the fold-enrichment.
+Biological Processes for each group of differentially abundant proteins. The script makes four bar graphs with the length of the bars as the *P*-value significance and shade representing the fold-enrichment.
+
+>volcano_plot_with_PGA.ipynb
+
 
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients.
