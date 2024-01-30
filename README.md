@@ -20,9 +20,11 @@ data is saved in the data directory for all downstream analysis.
 
 This script takes the quantile normalized data and makes a PCA plot in R. Additionally, this
 script makes box plots of the distribution of PC1 and PC2 values for all three study groups
-(Active GCA, Inactive GCA, and Healthy controls). A Mann–Whitney U test was used to compare 
+(Active GCA, Inactive GCA, and Healthy controls). A Mann–Whitney *U* test was used to compare 
 the PC1 and PC2 distributions between all three study groups, the *P*-values are provided and
 denoted between each group.
+
+>linear_modeling_between_PC1_and_demographic_variables.ipynb
 
 
 
