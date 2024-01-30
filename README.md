@@ -57,9 +57,3 @@ library(factoextra)
 library(ggfortify)
 ```
 
-NOTE: You must make a directory called "output" in the same directory as all the scripts and files.
-This is where the figures will be saved.
-
-Here is an example of running the scripts:
-
-> Rscript differentially_abundant_final.r
