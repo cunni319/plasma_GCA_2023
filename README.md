@@ -1,6 +1,8 @@
 # Plasma_proteins_GCA_2023
 Analysis of plasma proteins in Giant Cell Arteritis (GCA) patients compared with healthy controls.
 ===================================================
+Contact: cunni319@umn.edu Corresponding Author: sung.jaeyun@mayo.edu
+
 
 This repository includes Jupyter lab notebooks to run for the analysis of this project. The input data is included in the repository; 
 no editing is required to run the scripts. Each script has local data that is read in, and all output for the figures is automatically 
