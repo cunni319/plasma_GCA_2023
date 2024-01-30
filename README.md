@@ -117,6 +117,8 @@ This script orders all Biological Processes based on their *P*-values and plots 
 Biological Processes for each group of differentially abundant proteins. The script makes four bar graphs with the
 length of the bars as the *P*-value significance and shade representing the fold-enrichment.
 
+
+## Proteins associated with PGA and CRP
 >volcano_plot_with_PGA.ipynb
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This
