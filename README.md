@@ -1,5 +1,5 @@
 # plasma_GCA_2023
-Analysis of plasma proteins in Giant cell arteritis patients compared with healthy controls.
+Analysis of plasma proteins in Giant Cell Arteritis (GCA) patients compared with healthy controls.
 ===================================================
 
 This repository includes Jupyter lab notebooks to run for the analysis for this project. 
