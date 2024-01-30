@@ -1,4 +1,4 @@
-# plasma_GCA_2023
+# Plasma_proteins_GCA_2023
 Analysis of plasma proteins in Giant Cell Arteritis (GCA) patients compared with healthy controls.
 ===================================================
 
