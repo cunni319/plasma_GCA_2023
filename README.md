@@ -59,6 +59,13 @@ was applied to all plasma proteins for significance.
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear
 regression models between Inactive GCA patients and Healthy controls. Marginal random effect linear regression models were run on six clinical and demographic variables between Active GCA and Inactive GCA. Variables with random effect linear regression model *P*-values < 0.05 were identified as significant confounders and included in the full random effect linear regression models. In the full random effect linear regression models, the *P*-value from the study group variable was used to identify differentially abundant proteins between Active GCA and Inactive GCA. A threshold of *P* < 0.01 was applied to all plasma proteins for significance.
 
+>linear_modeling_summary.ipynb
+
+This script reads in the results from the multiple linear regression models between Active GCA and Healthy controls 
+as well as for Inactive GCA and Healthy controls. It presents the number of significant proteins (*P* < 0.01) for both group comparisons. Additionally, it provides how many proteins are higher or lower in both group comparisons 
+(*i.e.*, Active GCA vs. Healthy controls and Inactive GCA vs. Healthy controls) as well as how many overlapp
+between the two groups.
+
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients.
 
