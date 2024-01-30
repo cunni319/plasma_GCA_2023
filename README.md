@@ -97,8 +97,7 @@ submitted to DAVID:
      
 A *P*-value < 0.01 from a modified Fisher's exact test provided by DAVID was used as a threshold for significance.
 This script orders all Biological Processes based on their *P*-values and plots the top 20 most significant GO
-Biological Processes for each comparison. The script makes four bar graphs with the length of the bars as the
-*P*-value significance and shade representing the fold-enrichment.
+Biological Processes for each group of differentially abundant protiens. The script makes four bar graphs with the length of the bars as the *P*-value significance and shade representing the fold-enrichment.
 
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients.
