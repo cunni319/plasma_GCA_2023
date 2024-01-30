@@ -44,7 +44,15 @@ regression models. In the full multiple linear regression models, the *P*-value 
 to identify differentially abundant proteins between Active GCA and Healthy controls. A threshold of *P* < 0.01 
 was applied to all plasma proteins for significance.
 
+>linear_modeling_inactive_and_controls.ipynb
 
+This script uses the quantile normalized data as well as the clinical and demographic data to build linear
+regression models between Inactive GCA patients and Healthy controls. Marginal linear regression models were
+run on six clinical and demographic variables between Inactive GCA and Healthy controls. Variables with linear
+regression model *P*-values < 0.05 were identified as significant confounders and included in the full multiple linear 
+regression models. In the full multiple linear regression models, the *P*-value from the study group variable was used 
+to identify differentially abundant proteins between Inactive GCA and Healthy controls. A threshold of *P* < 0.01 
+was applied to all plasma proteins for significance.
 
 
 
