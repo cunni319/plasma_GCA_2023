@@ -132,23 +132,21 @@ The scripts for machine learning between Active GCA and Healthy controls and Ina
 
 > 01_make_10fold_dataset.ipynb
 
-This script reads all data for Active GCA and Healthy controls and makes 10 train and test sets. Each train set has 54 total samples, and each test set
-has 6 samples. Each sample will be held out as a test sample once.
+This script reads all data for GCA (Active or Inactive) and Healthy controls and makes 10 train and test sets. Each train set has 54 total samples, and each test set has 6 samples. Each sample will be held out as a test sample once.
 
 > 02_finding_differentially_abundant_proteins.ipynb
 
-This script reads in each training set and constructs linear regression models between Active GCA and Healthy controls. It saves the results of the linear
-regression models to use for feature selection.
+This script reads in each training set and constructs linear regression models between GCA (Active or Inactive) and Healthy controls. It saves the results of the linear regression models to use for feature selection.
 
 > 03_making_train_and_test_sets_from_linear_modeling.ipynb
 
-This script reads the results from the linear regression models and selects the proteins that were
-statistically significant between Active GCA and Healthy controls. It saves all train and test sets using
-different thresholds for the number of proteins ranging from 10–250 proteins.
+This script reads the results from the linear regression models and selects the proteins that were statistically significant between 
+GCA (Active or Inactive) and Healthy controls. It saves all train and test sets using different thresholds for the number of proteins 
+ranging from 10–250 proteins.
 
 > 04_random_forest_classifier.ipynb
 
-This script reads in the train and test sets to build a random forest classifier between Active GCA and
+This script reads in the train and test sets to build a random forest classifier between GCA (Active or Inactive) and
 Healthy controls. Each of the 10 train and test sets is read into the classifier once.
 
 > 05_differentially_abundant_and_absolute_value_proteins_random_forest_results.ipynb
