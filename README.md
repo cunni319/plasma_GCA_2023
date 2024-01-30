@@ -125,8 +125,8 @@ library(ggfortify)
 There are also a few Python libraries that need to be installed to run these scripts.
 They are:
 
-'''
+```
 pandas
 scikit-learn
 numpy
-'''
+```
