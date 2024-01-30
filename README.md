@@ -144,7 +144,7 @@ This script reads the results from the linear regression models and selects the 
 statistically significant between Active GCA and Healthy controls. It saves all train and test sets using
 different thresholds for the number of proteins ranging from 10–250 proteins.
 
-< 4. 04_random_forest_classifier.ipynb
+> 4. 04_random_forest_classifier.ipynb
 
 This script reads in the train and test sets to build a random forest classifier between Active GCA and
 Healthy controls. Each of the 10 train and test sets is read into the classifier once.
