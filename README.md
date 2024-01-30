@@ -62,26 +62,26 @@ identified as significant confounders and included in the full random effect lin
 the *P*-value from the study group variable was used to identify differentially abundant proteins between Active GCA and Inactive GCA. A threshold of *P* < 0.01 
 was applied to all plasma proteins for significance.
 
->linear_modeling_summary.ipynb
+>../src/Figure2_A_B_C_D_E/linear_modeling_summary.ipynb
 
 This script reads the results from the multiple linear regression models between Active GCA and Healthy controls as well as for Inactive GCA and Healthy controls.
 It presents the number of significant proteins (*P* < 0.01) for both group comparisons. Additionally, it provides how many proteins are higher or lower in 
 both group comparisons (*i.e.,*, Active GCA vs. Healthy controls and Inactive GCA vs. Healthy controls) as well as how many overlap between the two groups. 
 These results are denoted in Figures 2A and B.
 
->active_GCA_vs_healthy_controls_heatmap.ipynb
+>../src/Figure2_A_B_C_D_E/active_GCA_vs_healthy_controls_heatmap.ipynb
 
 This script reads in the multiple linear regression model results between Active GCA and Healthy controls. It gathers the proteins from Active GCA and Healthy 
 control and makes a heatmap after doing a z-score transformation on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for 
 each study participant.
 
->inactive_GCA_vs_healthy_controls_heatmap.ipynb
+>../src/Figure2_A_B_C_D_E/inactive_GCA_vs_healthy_controls_heatmap.ipynb
 
 This script reads in the multiple linear regression model results between Inactive GCA and Healthy controls. It gathers the proteins from Inactive GCA and 
 Healthy controls and makes a heatmap after doing a z-score transformation on the data. Age, sex, smoking status, and BMI are denoted at the top of each 
 heatmap for each study participant.
 
->active_GCA_vs_inactive_GCA_heatmap.ipynb
+>../src/Figure2_A_B_C_D_E/active_GCA_vs_inactive_GCA_heatmap.ipynb
 
 This script reads in the random effect linear regression model results between Active GCA and Inactive GCA. It gathers the proteins from Active GCA and Inactive
 GCA and makes a heatmap after doing a z-score transformation on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each 
@@ -89,7 +89,7 @@ study participant.
 
 
 ## Significant enriched GO Biological Processes
->top_20_GO_terms_from_DAVID.ipynb
+>../src/Figure3_A_B_C_D/top_20_GO_terms_from_DAVID.ipynb
 
 This script reads the results from using the online bioinformatics tool DAVID to identify significantly enriched Biological Processes for differentially abundant
 proteins. There are four groups of proteins that were submitted to DAVID:
@@ -104,7 +104,7 @@ four bar graphs with the length of the bars as the *P*-value significance and sh
 
 
 ## Proteins associated with PGA and CRP
->volcano_plot_with_PGA.ipynb
+>../src/Figure4_A_B/volcano_plot_with_PGA.ipynb
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This script uses the Active GCA plasma proteins 
 and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. Marginal linear regression models
@@ -114,7 +114,7 @@ regression models, Spearman rho values, along with their corresponding *P*-value
 < 0.05 and an |Spearman rho| > 0.4 were identified as significant associations. A volcano plot is made at the very end, with the proteins of interest 
 highlighted in colors (blue and red).
 
->volcano_plot_with_CRP.ipynb
+>../src/Figure4_A_B/volcano_plot_with_CRP.ipynb
 
 
 ## Machine learning
