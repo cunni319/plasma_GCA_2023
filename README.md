@@ -19,6 +19,7 @@ have the same distribution and median after quantile normalization. The quantile
 data is saved in the data directory for all downstream analysis.
 
 
+## Exploratory analysis
 >PCA.ipynb
 
 This script takes the quantile normalized data and makes a PCA plot in R. Additionally, this
@@ -27,7 +28,7 @@ script makes box plots of the distribution of PC1 and PC2 values for all three s
 the PC1 and PC2 distributions between all three study groups, the *P*-values are provided and
 denoted between each group.
 
-
+## Differential abundance analysis
 >linear_modeling_between_PC1_and_demographic_variables.ipynb
 
 This script uses the quantile normalized data to do PCA analysis. The PC1 values for all
@@ -100,6 +101,7 @@ gathers the proteins from Active GCA and Inactive GCA and makes a heatmap after 
 on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
 
 
+## Significant enriched GO Biological Processes
 >top_20_GO_terms_from_DAVID.ipynb
 
 This script reads the results from using the online bioinformatics tool DAVID to identify significantly
