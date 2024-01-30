@@ -34,6 +34,10 @@ variable had an individual linear regression model constructed. The *P*-value an
 variable of interest are saved to make a lollipop plot with the lenth of the line representing the linear
 regression model *P*-value and the size of the point representing the R<sup>2</sup> value.
 
+>linear_modeling_active_and_controls.ipynb
+
+This script uses the quantile normalized data as well as the clinical and demographic data to build linear
+regression models between Active GCA patients and Healthy controls. 
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease
 severity in patients.
