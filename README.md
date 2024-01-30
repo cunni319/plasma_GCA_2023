@@ -10,8 +10,7 @@ The scripts included are the following:
 
 >../src/quantile_normalization/quantile_normalization.ipynb
 
-This script takes the raw RFU data from SomaLogic, and quantile normalizes the samples.
-A box plot of all samples is provided at the end of the script to illustrate that all samples
+This script takes the raw RFU data from SomaLogic, and quantile normalizes the samples. A box plot of all samples is provided at the end of the script to illustrate that all samples
 have the same distribution and median after quantile normalization. The quantile normalized 
 data is saved in the data directory for all downstream analysis.
 
