@@ -106,15 +106,13 @@ four bar graphs with the length of the bars as the *P*-value significance and sh
 ## Proteins associated with PGA and CRP
 >volcano_plot_with_PGA.ipynb
 
-The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This
-script uses the Active GCA plasma proteins and the Active GCA patients' clinical and demographic data to identify
-proteins associated with PGA in Active GCA patients. Marginal linear regression models were constructed between 
-all proteins and six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use,
-and methotrexate use). Variables with a *P*-value < 0.05 were included in the full multiple linear regression
-model between protein abundance and PGA. After constructing the linear regression models, Spearman rho values,
-along with their corresponding *P*-values, were calculated between proteins and PGA. All proteins with a *P*-value 
-< 0.05 and an |Spearman rho| > 0.4 were identified as significant associations. A volcano plot is made at the very
-end, with the proteins of interest highlighted in colors (blue and red).
+The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This script uses the Active GCA plasma proteins 
+and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. Marginal linear regression models
+were constructed between all proteins and six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use).
+Variables with a *P*-value < 0.05 were included in the full multiple linear regression model between protein abundance and PGA. After constructing the linear 
+regression models, Spearman rho values, along with their corresponding *P*-values, were calculated between proteins and PGA. All proteins with a *P*-value 
+< 0.05 and an |Spearman rho| > 0.4 were identified as significant associations. A volcano plot is made at the very end, with the proteins of interest 
+highlighted in colors (blue and red).
 
 >volcano_plot_with_CRP.ipynb
 
