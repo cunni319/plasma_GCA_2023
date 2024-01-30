@@ -78,6 +78,11 @@ This script reads in the multiple linear regression model results between Inacti
 gathers the proteins from Inactive GCA and Healthy control and makes a heatmap after doing z-score transformation
 on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
 
+>active_GCA_vs_inactive_GCA_heatmap.ipynb
+
+This script reads in the random effect linear regression model results between Active GCA and Inactive GCA. It
+gathers the proteins from Active GCA and Inactive GCA and makes a heatmap after doing z-score transformation
+on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients.
 
