@@ -102,9 +102,8 @@ Biological Processes for each group of differentially abundant proteins. The scr
 
 >volcano_plot_with_PGA.ipynb
 
-
-
-The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients.
+The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This
+script uses the Active GCA plasma proteins and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. 
 
 # Installation
 
@@ -125,3 +124,11 @@ library(factoextra)
 library(ggfortify)
 ```
 
+There are also a few Python libraries that need to be installed to run these scripts.
+They are:
+
+'''
+pandas
+scikit-learn
+numpy
+'''
