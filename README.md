@@ -78,7 +78,7 @@ each study participant.
 >inactive_GCA_vs_healthy_controls_heatmap.ipynb
 
 This script reads in the multiple linear regression model results between Inactive GCA and Healthy controls. It gathers the proteins from Inactive GCA and 
-Healthy control and makes a heatmap after doing a z-score transformation on the data. Age, sex, smoking status, and BMI are denoted at the top of each 
+Healthy controls and makes a heatmap after doing a z-score transformation on the data. Age, sex, smoking status, and BMI are denoted at the top of each 
 heatmap for each study participant.
 
 >active_GCA_vs_inactive_GCA_heatmap.ipynb
@@ -117,6 +117,36 @@ highlighted in colors (blue and red).
 >volcano_plot_with_CRP.ipynb
 
 
+## Machine learning
+
+The scripts for machine learning between Active GCA and Healthy controls and Inactive GCA and Healthy controls are the same except for the input data.
+
+> 1. 01_make_10fold_dataset.ipynb
+
+This script reads all data for Active GCA and Healthy controls and makes 10 train and test sets. Each train set has 54 total samples, and each test set
+has 6 samples. Each sample will be held out as a test sample once.
+
+> 2. 02_finding_differentially_abundant_proteins.ipynb
+
+This script reads in each training set and constructs linear regression models between Active GCA and Healthy controls. It saves the results of the linear
+regression models to use for feature selection.
+
+> 3. 03_making_train_and_test_sets_from_linear_modeling.ipynb
+
+This script reads the results from the linear regression models and selects the proteins that were
+statistically significant between Active GCA and Healthy controls. It saves all train and test sets using
+different thresholds for the number of proteins ranging from 10–250 proteins.
+
+< 4. 04_random_forest_classifier.ipynb
+
+This script reads in the train and test sets to build a random forest classifier between Active GCA and
+Healthy controls. Each of the 10 train and test sets is read into the classifier once.
+
+> 5. 05_differentially_abundant_and_absolute_value_proteins_random_forest_results.ipynb
+
+This script reads the results for all of the random forest classifier models used. The thresholds used
+are the top: 10 proteins, 25 proteins, 50 proteins, 100 proteins, 150 proteins, 200 proteins, 250 proteins,
+and all 7,289 proteins.
 
 # Installation
 
