@@ -11,8 +11,8 @@ The scripts included are the following:
 
 >quantile_normalization.ipynb
 
-This script takes the raw RFU data from SomaLogic and quantile normalizes the samples.
-A box plot of all samples is provided at the end of the script to confirm that all samples
+This script takes the raw RFU data from SomaLogic, and quantile normalizes the samples.
+A box plot of all samples is provided at the end of the script to illustrate that all samples
 have the same distribution and median after quantile normalization. The quantile normalized 
 data is saved in the data directory for all downstream analysis.
 
@@ -26,12 +26,16 @@ denoted between each group.
 
 >linear_modeling_between_PC1_and_demographic_variables.ipynb
 
+This script uses the quantile normalized data to make do a PCA analysis. The PC1 values for all
+three study groups are saved for linear modeling. Linear regression models were constructed between
+clinical and demographic variables for all three study groups. This includes: Study group, age,
+prednisone use, BMI, aspirin use, sex, PGA, Smoking status, and CRP. Each clinical and demographic
+variable had an individual linear regression model constructed. The *P*-value and the R <sup>2</sup> for the 
+variable of interest was 
 
 
-The Clinical Disease Activity score is a commonly used RA measurement of disease
-severity. In this script, the CDAI scores are used with the quantile normalized data
-to find Spearman Correlations. The autoantibody with the highest Spearman Correlation is
-for the CISH gene.
+The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease
+severity in patients.
 
 # Installation
 
