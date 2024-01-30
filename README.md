@@ -94,6 +94,7 @@ submitted to DAVID:
   2. Differentially abundant proteins lower in Active GCA compared to Healthy controls
   3. Differentially abundant proteins higher in Inactive GCA compared to Healthy controls
   4. Differentially abundant protein lower in Inactive GCA compared to Healthy controls
+     
 A *P*-value < 0.01 from a modified Fisher's exact test provided by DAVID was used as a threshold for significance.
 This script orders all Biological Processes based on their *P*-values and plots the top 20 most significant GO
 Biological Processes for each comparison. The script makes four bar graphs with the length of the bars as the
