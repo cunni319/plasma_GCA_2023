@@ -26,12 +26,12 @@ denoted between each group.
 
 >linear_modeling_between_PC1_and_demographic_variables.ipynb
 
-This script uses the quantile normalized data to make do a PCA analysis. The PC1 values for all
+This script uses the quantile normalized data to do PCA analysis. The PC1 values for all
 three study groups are saved for linear modeling. Linear regression models were constructed between
 clinical and demographic variables for all three study groups. This includes: Study group, age,
 prednisone use, BMI, aspirin use, sex, PGA, Smoking status, and CRP. Each clinical and demographic
 variable had an individual linear regression model constructed. The *P*-value and the R<sup>2</sup> for the 
-variable of interest are saved to make a lollipop plot with the lenth of the line representing the linear
+variable of interest are saved to make a lollipop plot with the length of the line representing the linear
 regression model *P*-value and the size of the point representing the R<sup>2</sup> value.
 
 >linear_modeling_active_and_controls.ipynb
@@ -61,28 +61,35 @@ regression models between Inactive GCA patients and Healthy controls. Marginal r
 
 >linear_modeling_summary.ipynb
 
-This script reads in the results from the multiple linear regression models between Active GCA and Healthy controls 
+This script reads the results from the multiple linear regression models between Active GCA and Healthy controls 
 as well as for Inactive GCA and Healthy controls. It presents the number of significant proteins (*P* < 0.01) for both group comparisons. Additionally, it provides how many proteins are higher or lower in both group comparisons 
-(*i.e.*, Active GCA vs. Healthy controls and Inactive GCA vs. Healthy controls) as well as how many overlapp
-between the two groups. These results are denoted in Figure 2A and B.
+(*i.e.,*, Active GCA vs. Healthy controls and Inactive GCA vs. Healthy controls) as well as how many overlapp
+between the two groups. These results are denoted in Figures 2A and B.
 
 >active_GCA_vs_healthy_controls_heatmap.ipynb
 
 This script reads in the multiple linear regression model results between Active GCA and Healthy controls. It
-gathers the proteins from Active GCA and Healthy control and makes a heatmap after doing z-score transformation
+gathers the proteins from Active GCA and Healthy control and makes a heatmap after doing a z-score transformation
 on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
 
 >inactive_GCA_vs_healthy_controls_heatmap.ipynb
 
 This script reads in the multiple linear regression model results between Inactive GCA and Healthy controls. It
-gathers the proteins from Inactive GCA and Healthy control and makes a heatmap after doing z-score transformation
+gathers the proteins from Inactive GCA and Healthy control and makes a heatmap after doing a z-score transformation
 on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
 
 >active_GCA_vs_inactive_GCA_heatmap.ipynb
 
 This script reads in the random effect linear regression model results between Active GCA and Inactive GCA. It
-gathers the proteins from Active GCA and Inactive GCA and makes a heatmap after doing z-score transformation
+gathers the proteins from Active GCA and Inactive GCA and makes a heatmap after doing a z-score transformation
 on the data. Age, sex, smoking status, and BMI are denoted at the top of each heatmap for each study participant.
+
+>top_20_GO_terms_from_DAVID.ipynb
+
+This script reads in the results from using the online bioinformatics tool DAVID to identify significantly
+enriched 
+
+
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients.
 
