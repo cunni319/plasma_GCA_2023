@@ -9,6 +9,8 @@ put into the corresponding output directory.
 
 The scripts included are the following:
 
+## Data Preprocessing
+
 >quantile_normalization.ipynb
 
 This script takes the raw RFU data from SomaLogic, and quantile normalizes the samples.
@@ -124,6 +126,8 @@ model between protein abundance and PGA. After constructing the linear regressio
 along with their corresponding *P*-values, were calculated between proteins and PGA. All proteins with a *P*-value 
 < 0.05 and an |Spearman rho| > 0.4 were identified as significant associations. A volcano plot is made at the very
 end, with the proteins of interest highlighted in colors (blue and red).
+
+
 
 # Installation
 
