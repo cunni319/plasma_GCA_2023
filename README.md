@@ -19,7 +19,7 @@ of the script to illustrate that all samples have the same distribution and medi
 data is saved in the data directory for all downstream analysis.
 
 
-## Exploratory analysis
+## Principal component analysis
 >../src/Figure_1B_C_D/PCA.ipynb
 
 This script takes the quantile normalized data and makes a PCA plot in R. Additionally, this script makes box plots of the distribution of 
