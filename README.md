@@ -152,7 +152,7 @@ Healthy controls. Each of the 10 train and test sets is read into the classifier
 > ../src/classifying_active_vs_controls_v2/05_differentially_abundant_and_absolute_value_proteins_random_forest_results.ipynb
 
 This script reads the results for all of the random forest classifier models used. The thresholds used
-are the top: 10 proteins, 25 proteins, 50 proteins, 100 proteins, 150 proteins, 200 proteins, 250 proteins,
+are the top 10 proteins, 25 proteins, 50 proteins, 100 proteins, 150 proteins, 200 proteins, 250 proteins,
 and all 7,289 proteins. Using the results, the accuracy, specificity, sensitivity, positive predictive value (PPV)
 and negative predictive value (NPV) are all calculated and provided.
 
