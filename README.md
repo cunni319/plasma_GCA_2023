@@ -160,18 +160,18 @@ and negative predictive value (NPV) are all calculated and provided.
 
 The following scripts are for classifying paired Active and Inactive patients based on full plasma protein profiles.
 
-> 01_make_LOO_CV_data.ipynb
+> ../src/classifying_active_vs_inactive_v2/01_make_LOO_CV_data.ipynb
 
 This script reads in all 60 samples of GCA patients and splits the data to leave one patient out
 as the test data and the remaining 58 samples as training data. Each paired Active and Inactive sample
 is held out once in the test set.
 
-> 02_random_forest_classifier.ipynb
+> ../src/classifying_active_vs_inactive_v2/02_random_forest_classifier.ipynb
 
 This script reads the training and test data and classifies the two test samples as Active or 
 Inactive. There are 30 training and test sets.
 
-> 03_random_forest_results.ipynb
+> ../src/classifying_active_vs_inactive_v2/03_random_forest_results.ipynb
 
 
 
