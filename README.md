@@ -10,7 +10,7 @@ put into the corresponding output directory.
 
 The scripts included are the following:
 
-### Data Preprocessing
+## Data Preprocessing
 
 >../src/quantile_normalization/quantile_normalization.ipynb
 
