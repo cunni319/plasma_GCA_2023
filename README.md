@@ -126,7 +126,7 @@ regression models, Spearman rho values, along with their corresponding *P*-value
 < 0.05 and an |Spearman rho| > 0.4 were identified as significant associations. A volcano plot is made at the very end, with the proteins of interest 
 highlighted in colors (blue and red).
 
-## Machine learning (GCA and Healthy control)
+## Machine learning between GCA (Active or Inactive) and Healthy control
 
 The scripts for machine learning between Active GCA and Healthy controls and Inactive GCA and Healthy controls are the same except for the input data. The script directories are presented for Active GCA.
 
@@ -156,7 +156,7 @@ are the top: 10 proteins, 25 proteins, 50 proteins, 100 proteins, 150 proteins, 
 and all 7,289 proteins. Using the results, the accuracy, specificity, sensitivity, positive predictive value (PPV)
 and negative predictive value (NPV) are all calculated and provided.
 
-## Machine learning (Active and Inactive GCA)
+## Machine learning between Active and Inactive GCA
 
 The following scripts are for classifying paired Active and Inactive patients based on full plasma protein profiles.
 
