@@ -126,35 +126,54 @@ regression models, Spearman rho values, along with their corresponding *P*-value
 < 0.05 and an |Spearman rho| > 0.4 were identified as significant associations. A volcano plot is made at the very end, with the proteins of interest 
 highlighted in colors (blue and red).
 
-## Machine learning
+## Machine learning (GCA and Healthy control)
 
-The scripts for machine learning between Active GCA and Healthy controls and Inactive GCA and Healthy controls are the same except for the input data.
+The scripts for machine learning between Active GCA and Healthy controls and Inactive GCA and Healthy controls are the same except for the input data. The script directories are presented for Active GCA.
 
-> 01_make_10fold_dataset.ipynb
+> ../src/classifying_active_vs_controls_v2/01_make_10fold_dataset.ipynb
 
 This script reads all data for GCA (Active or Inactive) and Healthy controls and makes 10 train and test sets. Each train set has 54 total samples, and each test set has 6 samples. Each sample will be held out as a test sample once.
 
-> 02_finding_differentially_abundant_proteins.ipynb
+> ../src/classifying_active_vs_controls_v2/02_finding_differentially_abundant_proteins.ipynb
 
 This script reads in each training set and constructs linear regression models between GCA (Active or Inactive) and Healthy controls. It saves the results of the linear regression models to use for feature selection.
 
-> 03_making_train_and_test_sets_from_linear_modeling.ipynb
+> ../src/classifying_active_vs_controls_v2/03_making_train_and_test_sets_from_linear_modeling.ipynb
 
 This script reads the results from the linear regression models and selects the proteins that were statistically significant between 
 GCA (Active or Inactive) and Healthy controls. It saves all train and test sets using different thresholds for the number of proteins 
 ranging from 10–250 proteins.
 
-> 04_random_forest_classifier.ipynb
+> ../src/classifying_active_vs_controls_v2/04_random_forest_classifier.ipynb
 
 This script reads in the train and test sets to build a random forest classifier between GCA (Active or Inactive) and
 Healthy controls. Each of the 10 train and test sets is read into the classifier once.
 
-> 05_differentially_abundant_and_absolute_value_proteins_random_forest_results.ipynb
+> ../src/classifying_active_vs_controls_v2/05_differentially_abundant_and_absolute_value_proteins_random_forest_results.ipynb
 
 This script reads the results for all of the random forest classifier models used. The thresholds used
 are the top: 10 proteins, 25 proteins, 50 proteins, 100 proteins, 150 proteins, 200 proteins, 250 proteins,
 and all 7,289 proteins. Using the results, the accuracy, specificity, sensitivity, positive predictive value (PPV)
 and negative predictive value (NPV) are all calculated and provided.
+
+## Machine learning (Active and Inactive GCA)
+
+The following scripts are for classifying paired Active and Inactive patients based on full plasma protein profiles.
+
+> 01_make_LOO_CV_data.ipynb
+
+This script reads in all 60 samples of GCA patients and splits the data to leave one patient out
+as the test data and the remaining 58 samples as training data. Each paired Active and Inactive sample
+is held out once in the test set.
+
+> 02_random_forest_classifier.ipynb
+
+This script reads the training and test data and classifies the two test samples as Active or 
+Inactive. There are 30 training and test sets.
+
+> 03_random_forest_results.ipynb
+
+
 
 # Installation
 
