@@ -175,7 +175,7 @@ Inactive. There are 30 training and test sets.
 
 
 
-# Installation
+## Installation
 
 There are a few R libraries that need to be installed to run these scripts.
 They are:
