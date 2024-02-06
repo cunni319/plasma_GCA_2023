@@ -171,11 +171,8 @@ Inactive. There are 30 training and test sets.
 
 > ../src/classifying_active_vs_inactive_v2/03_random_forest_results.ipynb
 
-This script reads in the results for 10-fold cross-validation between GCA groups and healthy controls. Each section
-specifies the specific threshold for the results (*e.g.*, Active GCA vs. Healthy controls top 25 proteins, Inactive GCA
-vs. Healthy controls all proteins). The results are presented for all thresholds.
-
->
+This script reads in the results for leave-one-out-cross-validation between paired Active and Inactive GCA samples when
+using all proteins in the classifier.
 
 ## Installation
 
