@@ -43,7 +43,6 @@ prednisone use, aspirin use, and methotrexate use) between Active GCA and Health
 models, the *P*-value from the study group variable was used to identify differentially abundant proteins between Active GCA and Healthy controls. 
 A threshold of *P* < 0.01 was applied to all plasma proteins for significance.
 
-
 >../src/linear_modeling_inactive_and_controls/linear_modeling_inactive_and_controls.ipynb
 
 This script uses the quantile normalized data as well as the clinical and demographic data to build linear regression models between Inactive GCA 
@@ -130,7 +129,7 @@ The scripts for machine learning between Active GCA and Healthy controls and Ina
 
 > ../src/classifying_active_vs_controls_v2/01_make_10fold_dataset.ipynb
 
-This script reads all data for GCA (Active or Inactive) and Healthy controls and makes 10 train and test sets. Each train set has 54 total samples, and each test set has 6 samples. Each sample will be held out as a test sample once.
+This script reads all data for GCA (Active or Inactive) and Healthy controls and makes ten train and test sets. Each train set has 54 total samples, and each test set has six samples. Each sample will be held out as a test sample once.
 
 > ../src/classifying_active_vs_controls_v2/02_finding_differentially_abundant_proteins.ipynb
 
