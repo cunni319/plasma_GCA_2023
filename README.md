@@ -106,7 +106,7 @@ four bar graphs with the length of the bars as the *P*-value significance and sh
 >../src/Figure4_A_B/volcano_plot_with_PGA.ipynb
 
 The Physician's Global Assessment (PGA) is a commonly used GCA measurement for disease severity in patients. This script uses the Active GCA plasma proteins 
-and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA in Active GCA patients. Marginal linear regression models
+and the Active GCA patients' clinical and demographic data to identify proteins associated with PGA. Marginal linear regression models
 were constructed between all proteins and six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use).
 Variables with a *P*-value < 0.05 were included in the full multiple linear regression model between protein abundance and PGA. After constructing the linear 
 regression models, Spearman rho values, along with their corresponding *P*-values, were calculated between proteins and PGA. All proteins with a *P*-value 
@@ -116,7 +116,7 @@ highlighted in colors (blue and red).
 >../src/Figure4_A_B/volcano_plot_with_CRP.ipynb
 
 C-reactive protein (CRP) is a blood-based protein that reflects systemic inflammation. This script uses the Active GCA plasma proteins 
-and the Active GCA patients' clinical and demographic data to identify proteins associated with CRP in Active GCA patients. Marginal linear regression models
+and the Active GCA patients' clinical and demographic data to identify proteins associated with CRP. Marginal linear regression models
 were constructed between all proteins and six clinical and demographic variables (age, smoking status, sex, prednisone use, aspirin use, and methotrexate use).
 Variables with a *P*-value < 0.05 were included in the full multiple linear regression model between protein abundance and CRP. After constructing the linear 
 regression models, Spearman rho values, along with their corresponding *P*-values, were calculated between proteins and CRP. All proteins with a *P*-value 
