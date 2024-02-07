@@ -146,7 +146,11 @@ ranging from 10–250 proteins.
 This script reads in the train and test sets to build a random forest classifier between GCA (Active or Inactive) and
 Healthy controls. Each of the 10 train and test sets is read into the classifier once.
 
-> ../src/classifying_active_vs_controls_v2/05_differentially_abundant_and_absolute_value_proteins_random_forest_results.ipynb
+> ../src/classifying_active_vs_controls_v2/05_random_forest_results.ipynb
+
+This script reads the results from 10-fold cross-validation for both non-feature selection and feature-selection methods. 
+
+> ../src/classifying_active_vs_controls_v2/06_differentially_abundant_and_absolute_value_proteins_random_forest_results.ipynb
 
 This script reads the results for all of the random forest classifier models used. The thresholds used
 are the top 10 proteins, 25 proteins, 50 proteins, 100 proteins, 150 proteins, 200 proteins, 250 proteins,
