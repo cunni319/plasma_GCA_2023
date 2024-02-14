@@ -12,7 +12,7 @@ put into the corresponding output directory.
 
 >../src/quantile_normalization/quantile_normalization.ipynb
 
-This script takes the raw RFU data from SomaLogic, and quantile normalizes 90 samples with 7,289 features per sample. A box plot of all samples is provided at the end 
+This script takes the raw RFU data from SomaLogic, and quantile normalizes the 90 samples with 7,289 features per sample. A box plot of all samples is provided at the end 
 of the script to illustrate that all samples have the same distribution and median after quantile normalization. The quantile normalized 
 data is saved in the data directory for all downstream analysis.
 
