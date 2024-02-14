@@ -176,6 +176,13 @@ Inactive. There are 30 training and test sets.
 This script reads in the results for leave-one-out-cross-validation between paired Active and Inactive GCA samples when
 using all proteins in the classifier.
 
+## Active and Inactive GCA vs. Healthy controls
+
+The following script is for reading in the results from 10-fold cross-validation for all Active GCA and Healthy control results
+as well as for all Inactive GCA and Healthy control results. A scatter plot is constructed for all results.
+
+> ../src/Figure_5/Figure_5.ipynb
+
 ## Installation
 
 There are a few R libraries that need to be installed to run these scripts.
