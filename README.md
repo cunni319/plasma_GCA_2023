@@ -179,7 +179,7 @@ using all proteins in the classifier.
 ## Active and Inactive GCA vs. Healthy controls
 
 The following script is for reading in the results from 10-fold cross-validation for all Active GCA and Healthy control results
-as well as for all Inactive GCA and Healthy control results. A scatter plot is constructed for all results.
+as well as for all Inactive GCA and Healthy control results. A bar graph is constructed for all results.
 
 > ../src/Figure_5/Figure_5.ipynb
 
