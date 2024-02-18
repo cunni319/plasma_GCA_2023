@@ -1,5 +1,0 @@
-"Protein","Nominal_pvalue","formula","fold_change","adjusted_pvalue","Target","Entrez"
-"Protein.disulfide.isomerase_4278.14",0.00485762079094912," ~ Study_group + (1|maskID)",0.109173447962989,0.999937631057378,"Protein disulfide-isomerase","5034"
-"PGCB_3461.58",0.00834164536406973," ~ Study_group + (1|maskID) + Smoking + Methotrexate",0.123318291809705,0.999937631057378,"PGCB","63827"
-"Apo.A.IV_17685.9",0.00953026988365582," ~ Study_group + (1|maskID) + Age",0.295506486278527,0.999937631057378,"Apo A-IV","337"
-"Eotaxin_5301.7",0.00954108301663733," ~ Study_group + (1|maskID)",0.391972207217478,0.999937631057378,"Eotaxin","6356"
