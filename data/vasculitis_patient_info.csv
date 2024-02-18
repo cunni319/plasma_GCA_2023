@@ -1,0 +1,61 @@
+maskid,Smoking,Sex,DTCC_ID,Age,MH_PGA,ActiveDisease,MH_CurrentTreatmentStatus,Height,HeightInCmOrInches,Height_Cm,Height_Meters,Weight,WeightInKgOrPounds,Weight_Kg,BMI_Kg_M2,Study_group,PrednisoneCurrentlyReceiving,CurrentGlucocorticoidsDose,MaxGlucoRecToday,MaxGlucoRecToday,MethotrexateWasTaken,AspirinLowDoseWasTaken,Aspirin,Statin,Clopidogrel,TMPSMX,Estrogen,Clopidogrel,Lefluomide,Abatacept,Aspirin/Clopidogrel,methotrexate/Lefluomide/Abatacept
+GCA-1,No,Male,47416_8543,69,3,Yes,On Treatment,.,,,,199,lbs,90.26488163,,Active,No,NA,5,5,No,,No,yes,no,No,no,no,no,no,No,no
+GCA-2,No,Male,5612_8543,64.4,3,Yes,On Treatment,.,,,,71.9,Kg,71.9,,Active,Yes,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-3,Yes,Female,27489_8543,63.5,5,Yes,,161.2,cm,161.2,1.612,61.5,Kg,61.5,23.66709973,Active,Yes,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-4,Yes,Female,24572_512,73.5,7,Yes,On Treatment,164,cm,164,1.64,61.8,Kg,61.8,22.97739441,Active,No,NA,NA,NA,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-5,Yes,Female,70345_8543,74.9,4,Yes,On Treatment,.,,,,.,,,,Active,No,NA,5,5,No,Today,Yes,yes,no,No,no,no,no,no,Yes,no
+GCA-6,Yes,Female,5611_8543,60.8,6,Yes,On Treatment,159.5,cm,159.5,1.595,200.2,lbs,90.80919247,35.69508652,Active,Yes,NA,NA,NA,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-7,No,Female,34924_8543,82.3,2,Yes,Off Treatment,59,Inches,149.86,1.4986,50,Kg,50,22.26376185,Active,Yes,NA,NA,NA,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-8,No,Female,22611_8543,59.7,7,Yes,On Treatment,66,Inches,167.64,1.6764,88,Kg,88,31.31319394,Active,Yes,10,10,10,Past Week,,No,no,no,No,no,no,no,no,No,yes
+GCA-9,Yes,Female,24804_8543,72.1,3,Yes,On Treatment,59,Inches,149.86,1.4986,49,Kg,49,21.81848661,Active,Yes,10,10,10,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-10,No,Female,56709_512,71.7,10,Yes,On Treatment,63,Inches,160.02,1.6002,153,lbs,69.39963261,27.10245545,Active,No,NA,60,60,No,Today,Yes,no,no,No,yes,no,no,no,Yes,no
+GCA-11,No,Male,15207_512,79.6,6,Yes,Off Treatment,170.8,cm,170.8,1.708,76.4,Kg,76.4,26.18892222,Active,No,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-12,Yes,Female,5362_8543,63.1,2,Yes,On Treatment,183,cm,183,1.83,210,lbs,95.2543977,28.44348822,Active,Yes,2,2,2,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-13,Yes,Female,5044_8543,65.3,4,Yes,Off Treatment,66,Inches,167.64,1.6764,146,lbs,66.22448602,23.56477471,Active,No,NA,NA,NA,Past Week,Today,Yes,no,no,No,no,no,no,no,Yes,yes
+GCA-14,No,Female,18511_8543,72.4,8,Yes,Off Treatment,60,Inches,152.4,1.524,69,Kg,69,29.70839275,Active,Yes,NA,NA,NA,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-15,Yes,Female,24926_512,58.7,6,Yes,On Treatment,169,cm,169,1.69,75.8,Kg,75.8,26.53968699,Active,Yes,NA,NA,NA,No,Past Week,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-16,No,Male,39974_8543,77.9,5,Yes,On Treatment,61,Inches,154.94,1.5494,77,Kg,77,32.07477525,Active,Yes,12,12,12,No,,No,no,no,No,no,no,no,no,No,no
+GCA-17,No,Female,10561_512,79.4,2,Yes,On Treatment,60,Inches,152.4,1.524,142,lbs,64.41011654,27.73218897,Active,Yes,60,60,60,No,,No,no,no,No,no,no,no,no,No,no
+GCA-18,Yes,Female,14371_8543,74.3,2,Yes,,162.4,cm,162.4,1.624,53,Kg,53,20.09573151,Active,Yes,NA,NA,NA,No,Today,Yes,yes,no,No,no,no,no,no,Yes,no
+GCA-19,Yes,Female,14406_512,66.9,3,Yes,On Treatment,66,Inches,167.64,1.6764,127,lbs,57.60623099,20.49812594,Active,Yes,40,40,40,Past Week,Today,Yes,no,no,No,no,no,no,no,Yes,yes
+GCA-20,No,Female,20788_8543,67.3,3,Yes,,160.3,cm,160.3,1.603,80.2,Kg,80.2,31.21097412,Active,Yes,NA,NA,NA,Past Week,Today,Yes,no,no,No,no,no,no,no,Yes,yes
+GCA-21,No,Female,15967_8543,63.2,2,Yes,On Treatment,64,Inches,162.56,1.6256,49,Kg,49,18.54251755,Active,Yes,6,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-22,Yes,Female,4169_8543,66.3,5,Yes,On Treatment,148.8,cm,148.8,1.488,71.7,Kg,71.7,32.38271766,Active,Yes,NA,NA,NA,Past Week,,No,yes,yes,No,no,yes,no,no,Yes,yes
+GCA-23,No,Male,25803_8543,81.6,2,Yes,On Treatment,64,Inches,162.56,1.6256,79.5,Kg,79.5,30.08428868,Active,Yes,2.5,2.5,2.5,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-24,Yes,Female,35010_8543,65.1,5,Yes,On Treatment,64,Inches,162.56,1.6256,90,Kg,90,34.0576853,Active,Yes,NA,NA,NA,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-25,Yes,Female,6210_512,72.9,5,Yes,On Treatment,.,,,,71,Kg,71,,Active,Yes,45,45,45,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-26,Yes,Female,6533_8543,89.8,6,Yes,Off Treatment,152,cm,152,1.52,60.5,Kg,60.5,26.18594183,Active,Yes,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-27,Yes,Male,51003_8543,89.3,2,Yes,Off Treatment,174.7,cm,174.7,1.747,75.8,Kg,75.8,24.83609976,Active,No,NA,NA,NA,No,Today,Yes,no,yes,No,no,yes,no,no,Yes,no
+GCA-28,Yes,Female,15709_8543,79.2,6,Yes,On Treatment,62,Inches,157.48,1.5748,75,Kg,75,30.24199597,Active,Yes,3,15,15,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-29,Yes,Male,52282_512,49.2,3,Yes,,67,Inches,170.18,1.7018,266,lbs,120.6555704,41.66106219,Active,No,NA,7.5,7.5,No,,No,no,no,No,no,no,no,no,No,no
+GCA-30,No,Female,6568_512,62.7,5,Yes,Off Treatment,70,Inches,177.8,1.778,58,Kg,58,18.34697547,Active,Yes,1,1,1,No,,No,no,no,No,no,no,no,no,No,no
+GCA-1,No,Male,47416_517,69.3,0,No,On Treatment,.,,,,199.8,lbs,90.62775553,,Inactive,Yes,5,5,5,No,,No,yes,no,No,no,no,no,no,No,no
+GCA-2,No,Male,5613_517,64.9,0,No,On Treatment,.,,,,69,Kg,69,,Inactive,Yes,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-3,Yes,Female,27489_526,63.8,0,No,On Treatment,161.9,cm,161.9,1.619,63.6,Kg,63.6,24.26405703,Inactive,No,NA,NA,NA,No,,No,no,no,No,no,no,no,yes,No,yes
+GCA-4,Yes,Female,24572_517,73.8,0,No,On Treatment,162.4,cm,162.4,1.624,67.5,Kg,67.5,25.59362033,Inactive,Yes,NA,NA,NA,No,Today,Yes,no,no,Yes,no,no,no,yes,Yes,yes
+GCA-5,Yes,Female,70345_520,75.5,0,No,On Treatment,169.9,cm,169.9,1.699,61.1,Kg,61.1,21.16676326,Inactive,No,NA,8,8,No,Today,Yes,yes,no,No,no,no,no,no,Yes,no
+GCA-6,Yes,Female,5611_520,61.3,0,No,On Treatment,159.5,cm,159.5,1.595,94,Kg,94,36.94932243,Inactive,Yes,NA,NA,NA,Past Week,Today,Yes,no,no,No,no,no,no,no,Yes,yes
+GCA-7,No,Female,34924_517,82.6,0,No,On Treatment,60,Inches,152.4,1.524,46,Kg,46,19.80559517,Inactive,Yes,10,10,10,No,,No,no,no,No,no,no,no,no,No,no
+GCA-8,No,Female,22611_517,59.9,0,No,On Treatment,66,Inches,167.64,1.6764,100,Kg,100,35.58317493,Inactive,Yes,10,10,10,Past Week,,No,no,no,No,no,no,yes,no,No,yes
+GCA-9,Yes,Female,24804_517,72.4,0,No,On Treatment,59,Inches,149.86,1.4986,51,Kg,51,22.70903709,Inactive,Yes,10,10,10,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-10,No,Female,56709_520,72.2,0,No,,.,,,,.,,,,Inactive,No,NA,10,10,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-11,No,Male,15207_517,80,0,No,On Treatment,167.4,cm,167.4,1.674,82.7,Kg,82.7,29.51172547,Inactive,Yes,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-12,Yes,Female,5362_520,63.6,0,No,On Treatment,72,Inches,182.88,1.8288,220,lbs,99.7903214,29.83705778,Inactive,Yes,5,5,5,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-13,Yes,Female,5044_517,65.6,0,No,On Treatment,66,Inches,167.64,1.6764,143.6,lbs,65.13586433,23.17740855,Inactive,No,NA,NA,NA,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-14,No,Female,18511_520,72.8,0,No,On Treatment,66,Inches,167.64,1.6764,78,Kg,78,27.75487645,Inactive,No,NA,10,10,No,,No,no,no,No,no,no,no,no,No,no
+GCA-15,Yes,Female,24926_517,59,0,No,On Treatment,.,,,,.,,,,Inactive,Yes,NA,NA,NA,Past Week,Today,Yes,yes,no,Yes,no,no,no,no,Yes,yes
+GCA-16,No,Male,39974_520,78.5,0,No,On Treatment,.,,,,78,Kg,78,,Inactive,Yes,10,10,10,No,,No,no,no,No,no,no,no,no,No,no
+GCA-17,No,Female,10561_517,79.7,0,No,On Treatment,152,cm,152,1.52,68,Kg,68,29.43213296,Inactive,Yes,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-18,Yes,Female,14371_517,74.6,0,No,On Treatment,160.4,cm,160.4,1.604,53.6,Kg,53.6,20.83320377,Inactive,Yes,NA,NA,NA,No,Today,Yes,yes,no,No,no,no,no,no,Yes,no
+GCA-19,Yes,Female,14406_517,67.1,0,No,On Treatment,66,Inches,167.64,1.6764,60,Kg,60,21.34990496,Inactive,Yes,40,40,40,Past Week,Today,Yes,no,no,No,no,no,no,no,Yes,yes
+GCA-20,No,Female,20788_517,67.6,0,No,On Treatment,161.3,cm,161.3,1.613,80.8,Kg,80.8,31.05579319,Inactive,No,NA,NA,NA,Past Week,Today,Yes,no,no,No,no,no,no,no,Yes,yes
+GCA-21,No,Female,15967_517,63.5,0,No,On Treatment,64,Inches,162.56,1.6256,50,Kg,50,18.92093628,Inactive,Yes,10,10,10,No,,No,no,no,No,no,no,no,no,No,no
+GCA-22,Yes,Female,4169_517,66.5,0,No,On Treatment,148.8,cm,148.8,1.488,74.6,Kg,74.6,33.6924789,Inactive,Yes,NA,NA,NA,Past Week,,No,no,yes,No,no,yes,no,no,Yes,yes
+GCA-23,No,Male,25803_517,81.8,0,No,On Treatment,63,Inches,160.02,1.6002,79.5,Kg,79.5,31.04692528,Inactive,Yes,5,5,5,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-24,Yes,Female,35010_520,65.6,0,No,On Treatment,64,Inches,162.56,1.6256,84,Kg,84,31.78717295,Inactive,Yes,NA,NA,NA,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-25,Yes,Female,6210_517,73.2,0,No,On Treatment,64,Inches,162.56,1.6256,74,Kg,74,28.00298569,Inactive,Yes,10,10,10,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-26,Yes,Female,6533_517,90,0,No,On Treatment,145,cm,145,1.45,70,Kg,70,33.29369798,Inactive,No,NA,NA,NA,No,,No,no,no,No,no,no,no,no,No,no
+GCA-27,Yes,Male,51003_517,89.6,0,No,On Treatment,174,cm,174,1.74,78.9,Kg,78.9,26.06024574,Inactive,No,NA,10,10,No,Today,Yes,yes,yes,No,no,yes,no,no,Yes,no
+GCA-28,Yes,Female,15709_517,79.4,0,No,On Treatment,62,Inches,157.48,1.5748,71,Kg,71,28.62908952,Inactive,Yes,10,10,10,No,Today,Yes,no,no,No,no,no,no,no,Yes,no
+GCA-29,Yes,Male,52282_517,49.5,0,No,,67,Inches,170.18,1.7018,260,lbs,117.9340162,40.72133899,Inactive,No,NA,7.5,7.5,No,,No,no,no,No,no,no,no,no,No,no
+GCA-30,No,Female,6568_517,62.9,0,No,On Treatment,70,Inches,177.8,1.778,57,Kg,57,18.03064831,Inactive,Yes,40,40,40,Past Week,,No,no,no,No,no,no,no,no,No,yes
